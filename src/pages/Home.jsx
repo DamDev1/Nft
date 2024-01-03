@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 
 export default function Home() {
+  const [faqDropOne, setFaqDropOne] = useState(false)
+
+
   return (
     <>
       <section id="hero-section">
@@ -61,10 +64,10 @@ export default function Home() {
             <h2>EXPLORE FURTHER,
               ACQUIRE, AND TRADE
               UNIQUE NFTS.</h2>
-              <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
-              <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales
+            <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+            <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales
               Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales
-              </p>
+            </p>
           </div>
         </div>
       </section>
@@ -87,31 +90,116 @@ export default function Home() {
       </section>
 
       <section id='collection'>
-          <div className="container">
-            <div className="collection-top">
-              <div className="left">
-                <span>COLLECTION</span>
-                <h2>BORED APES NFT COLLECTIBLES</h2>
-              </div>
-              <div className="right">
-                <button>VIEW ON OPENSEA</button>
-              </div>
+        <div className="container">
+          <div className="collection-top">
+            <div className="left">
+              <span>COLLECTION</span>
+              <h2>BORED APES NFT COLLECTIBLES</h2>
             </div>
+            <div className="right">
+              <button>VIEW ON OPENSEA</button>
+            </div>
+          </div>
 
-            <div className="collections-image-container">
-              <div className="img-left">
-                  <img src="../assets/image1.png" alt="" />
+          <div className="collections-image-container">
+            <div className="img-left">
+              <img src="../assets/image1.png" alt="" />
+            </div>
+            <div className="right">
+              <div className="imgOne">
+
               </div>
-              <div className="right">
-                <div className="imgOne">
+              <div className="imgTwo">
 
-                </div>
-                <div className="imgTwo">
-
-                </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div className="container">
+          <div className="left">
+            <span>QUESTIONS & ANSWERS</span>
+            <h2>MOST ASKED QUESTIONS FROM USERS</h2>
+            <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+          </div>
+          <div className="right">
+            <div className={faqDropOne ? "question" : "active-question"}>
+              <div className="caption" onClick={() => setFaqDropOne(!faqDropOne)}>
+                <span>WHAT IS NERKO’S NFT COLLECTION?</span>
+                <div className="harm" onClick={() => setFaqDropOne(!faqDropOne)}>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div className="answer">
+                <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+              </div>
+            </div>
+
+            <div className="question">
+              <div className="caption">
+                <span>HOW SECURED IS THIS TOKEN</span>
+                <div className="harm">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div className="answer">
+                <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+              </div>
+            </div>
+
+            <div className="question">
+              <div className="caption">
+                <span>HOW DOES THE RAFFLE WORK?</span>
+                <div className="harm">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div className="answer">
+                <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="team">
+        <div className="container">
+          <div className="team-top">
+            <div className="left">
+              <span>OUR TEAM</span>
+              <h2>MEET OUR VOLUNTEERS</h2>
+            </div>
+            <div className="right">
+              <button>MORE ABOUT TEAM</button>
+            </div>
+          </div>
+
+          <div className="team-container">
+            <div className="team"></div>
+            <div className="team"></div>
+            <div className="team"></div>
+          </div>
+
+          <div className="about-team">
+            <div className="col">
+              <div className="col-image">
+
+              </div>
+              <div className="col-content">
+                <h2>THAT’S WHY WE ARE BETTER
+                  THAN THE OTHERS</h2>
+
+                  <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for salesProduce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   )
