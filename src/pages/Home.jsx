@@ -195,7 +195,68 @@ export default function Home() {
                 <h2>THAT’S WHY WE ARE BETTER
                   THAN THE OTHERS</h2>
 
-                  <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for salesProduce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+                <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for salesProduce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+
+                <div className="about-content">
+                  <div className="content">
+                    <span>1.2B</span>
+                    <p>Over Billion on Blockchain
+                      asset to discover</p>
+                  </div>
+                  <div className="line"></div>
+                  <div className="content">
+                    <span>3.4B</span>
+                    <p>Over Billion on Blockchain
+                      asset to discover</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="blog">
+        <div className="container">
+          <div className="blog-top">
+            <div className="left">
+              <span>OUR BLOG</span>
+              <h2>OUR RECENT POST</h2>
+            </div>
+            <div className="right">
+              <button>VIEW ON OPENSEA</button>
+            </div>
+          </div>
+
+          <div className="blog-content-container">
+            <div className="blog-content">
+              <div className="blog-image"></div>
+              <div className="blog-title">NFT</div>
+              <div className="blog-date">
+                <span>JAN 1 2024</span>
+                <span>8MINS</span>
+                <span>4 COMMENTS</span>
+              </div>
+            </div>
+
+            <div className="blog-content">
+              <div className="blog-image"></div>
+              <div className="blog-title">NFT</div>
+              <div className="blog-date">
+                <span>JAN 1 2024</span>
+                <span>8MINS</span>
+                <span>4 COMMENTS</span>
+              </div>
+            </div>
+
+            <div className="blog-content">
+              <div className="blog-image"></div>
+              <div className="blog-title">NFT</div>
+              <div className="blog-date">
+                <span>JAN 1 2024</span>
+                <span>8MINS</span>
+                <span>4 COMMENTS</span>
               </div>
             </div>
           </div>
