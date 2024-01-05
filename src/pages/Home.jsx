@@ -232,31 +232,43 @@ export default function Home() {
           <div className="blog-content-container">
             <div className="blog-content">
               <div className="blog-image"></div>
-              <div className="blog-title">NFT</div>
+              <span className="blog-title">FOREX</span>
               <div className="blog-date">
                 <span>JAN 1 2024</span>
                 <span>8MINS</span>
                 <span>4 COMMENTS</span>
               </div>
-            </div>
-
-            <div className="blog-content">
-              <div className="blog-image"></div>
-              <div className="blog-title">NFT</div>
-              <div className="blog-date">
-                <span>JAN 1 2024</span>
-                <span>8MINS</span>
-                <span>4 COMMENTS</span>
+              <div className="blog-text">
+                <h4>TOP 10 NFTS TO BUY BY
+                  2024!</h4>
               </div>
             </div>
 
             <div className="blog-content">
               <div className="blog-image"></div>
-              <div className="blog-title">NFT</div>
+              <span className="blog-title">TRADING</span>
               <div className="blog-date">
                 <span>JAN 1 2024</span>
                 <span>8MINS</span>
                 <span>4 COMMENTS</span>
+              </div>
+              <div className="blog-text">
+                <h4>TOP 10 NFTS TO BUY BY
+                  2024!</h4>
+              </div>
+            </div>
+
+            <div className="blog-content">
+              <div className="blog-image"></div>
+              <span className="blog-title">CRYPTO</span>
+              <div className="blog-date">
+                <span>JAN 1 2024</span>
+                <span>8MINS</span>
+                <span>4 COMMENTS</span>
+              </div>
+              <div className="blog-text">
+                <h4>TOP 10 NFTS TO BUY BY
+                  2024!</h4>
               </div>
             </div>
           </div>
