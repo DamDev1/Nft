@@ -22,15 +22,18 @@ body {
 
 /* Header style */
 header {
-  padding: 2rem 5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-
+  position: fixed;
+  top: 0;
+  background: var(--primary-color);
+  width: 100%;
   .logo {
+    padding: 2rem 5vw;
     a {
       color: var(--main-color);
       font-family: var(--anton);
@@ -92,7 +95,7 @@ header {
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 8rem;
   padding: 2rem 5vw;
   .container {
     .col-top {
@@ -421,7 +424,6 @@ header {
           display: flex;
           justify-content: space-between;
           cursor: pointer;
-          background: red;
           span {
             color: var(--main-color);
             font-family: var(--anton);
@@ -647,6 +649,7 @@ header {
       gap: 20px;
 
       .blog-content {
+        margin-top: 30px;
         .blog-image {
           width: 100%;
           height: 300px;
@@ -853,6 +856,7 @@ footer {
       flex-direction: column;
       gap: 6px;
       cursor: pointer;
+      padding: 2rem 5vw;
       span {
         width: 30px;
         height: 3px;
@@ -864,6 +868,7 @@ footer {
     }
     .close-bar {
       display: flex;
+      padding: 2rem 5vw;
       flex-direction: column;
       cursor: pointer;
       span {
@@ -977,8 +982,58 @@ footer {
     }
   }
 
+  #faq{
+    .container{
+      .left{
+        p{
+          margin-top: 2rem;
+        }
+      }
+      .right{
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  #collection{
+    .container{
+      .collection-top{
+        .right{
+          display: none;
+        }
+      }
+      .collections-image-container{
+        .img-left{
+          height: 400px;
+        }
+      }
+    }
+  }
+
+  #team{
+    .container{
+      .team-top{
+        .right{
+          display: none;
+        }
+      }
+    }
+  }
+
+  #blog{
+    .container{
+      .blog-top{
+        .right{
+          display: none;
+        }
+      }
+    }
+  }
+
+
   footer {
     .container {
+      padding: 3rem 5vw;
       .footer-content {
         .right-content {
           margin-top: 10px;

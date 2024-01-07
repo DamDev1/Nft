@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <section id="hero-section">
-        <div className="container">
+        <div className="container"> 
           <div className="col-top">
             <div className="col-top-hero-content">
               <h1>COLLECT & SELL SUPER <span>RARE NFTS</span></h1>
@@ -19,7 +19,8 @@ export default function Home() {
           </div>
           <div className="col-bottom">
             <div className="col-bottom-content">
-              <p>Produce an exclusive NFT collection of over 10,000 items by uploading the necessary layers, and prepare to market your collection for sales</p>
+              <p>Produce an exclusive NFT collection of over 10,000 items by uploading t
+                he necessary layers, and prepare to market your collection for sales</p>
 
               <div className="btns">
                 <button>Let's Start</button>
